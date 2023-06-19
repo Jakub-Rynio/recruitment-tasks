@@ -1,0 +1,87 @@
+body {
+    background-color: gray;
+}
+.starting-title {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#user-info {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    text-align: center;
+    width: auto;
+}
+
+#user-info > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#user-info > table td, th {
+    padding: 10px;
+    margin: 0;
+}
+
+#user-info > table tr {
+    margin: 0;
+    opacity: 0.7;
+}
+
+#user-info > table tr:hover {
+    opacity: 1;
+}
+
+#user-info > a {
+    text-decoration: none;
+    color: black;
+}
+
+.bg-light {
+    background-color: gainsboro;
+}
+
+.bg-dark {
+    background-color: rgb(199, 191, 191);
+}
+
+.delete-btn {
+    background-color: #FF0000;
+    color: white;
+    padding: 5px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 20px;
+}
+
+fieldset {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#add-user-btn {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#label_add_user {
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 1200px;
+}
